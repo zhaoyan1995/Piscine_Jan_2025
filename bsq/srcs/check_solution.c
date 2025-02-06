@@ -6,7 +6,7 @@
 /*   By: yanzhao <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 21:13:07 by yanzhao           #+#    #+#             */
-/*   Updated: 2025/02/05 19:13:06 by yanzhao          ###   ########.fr       */
+/*   Updated: 2025/02/06 14:51:00 by yanzhao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	check_solution(int file, char *argv)
 	}
 	else
 	{
-		write(2, "map error\n", 10);
+		write(2, "map error", 10);
 		free(buffer2);
 	}
 }
