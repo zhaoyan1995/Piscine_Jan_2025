@@ -6,12 +6,11 @@
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/05 18:57:03 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2025/03/07 00:14:30 by ZHAOYAN          ###   ########.fr       */
+/*   Updated: 2025/03/07 00:27:43 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_list.h"
-#include <stdio.h>
 
 void	ft_list_merge(t_list **begin_list1, t_list *begin_list2)
 {
