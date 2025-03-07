@@ -6,11 +6,9 @@
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/19 18:17:24 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2025/02/20 15:57:24 by ZHAOYAN          ###   ########.fr       */
+/*   Updated: 2025/03/07 18:33:00 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_cmp(char *s1, char *s2)
 {

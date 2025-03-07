@@ -6,7 +6,7 @@
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/15 10:32:16 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2025/02/15 11:35:35 by ZHAOYAN          ###   ########.fr       */
+/*   Updated: 2025/03/07 17:04:10 by ZHAOYAN          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ int	*ft_map(int *tab, int length, int (*f)(int))
 	int	*result;
 
 	i = 0;
+	if (length < 1)
+		return (NULL);
 	result = (int *)malloc(length * sizeof(int));
 	if (result == NULL)
 		return (NULL);
